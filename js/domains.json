@@ -1,0 +1,132 @@
+{
+  "domain": [
+    "Vegetables",
+    "Fruits",
+    "Car brands",
+    "Animals",
+    "Colors",
+    "Phone brands",
+    "Daily objects",
+    "Countries",
+    "Sports"
+  ],
+  "domainArrays": {
+    "Vegetables": [
+      "tomato",
+      "cucumber",
+      "beans",
+      "lettuce",
+      "pumpkin",
+      "potato",
+      "corn",
+      "radish",
+      "onion",
+      "garlic",
+      "spinach"
+    ],
+    "Fruits": [
+      "banana",
+      "apple",
+      "kiwi",
+      "orange",
+      "watermelon",
+      "lemon",
+      "pineapple",
+      "apricot",
+      "grapes",
+      "mango",
+      "pear"
+    ],
+    "Car brands": [
+      "subaru",
+      "opel",
+      "seat",
+      "skoda",
+      "ferrari",
+      "bentley",
+      "toyota",
+      "tesla",
+      "bmw",
+      "ford",
+      "honda"
+    ],
+    "Animals": [
+      "dog",
+      "crocodile",
+      "hamster",
+      "bunny",
+      "bat",
+      "zebra",
+      "lion",
+      "elephant",
+      "bear",
+      "monkey",
+      "sheep"
+    ],
+    "Colors": [
+      "red",
+      "blue",
+      "white",
+      "purple",
+      "yellow",
+      "green",
+      "orange",
+      "black",
+      "pink",
+      "turquoise",
+      "violet"
+    ],
+    "Phone brands": [
+      "samsung",
+      "nokia",
+      "huawei",
+      "apple",
+      "htc",
+      "lenovo",
+      "motorola",
+      "siemens",
+      "xiaomi",
+      "oppo",
+      "sony"
+    ],
+    "Daily objects": [
+      "phone",
+      "cup",
+      "knife",
+      "door",
+      "chair",
+      "toothbrush",
+      "bottle",
+      "key",
+      "computer",
+      "money",
+      "soap"
+    ],
+    "Countries": [
+      "romania",
+      "france",
+      "england",
+      "germany",
+      "china",
+      "chile",
+      "poland",
+      "barbados",
+      "ireland",
+      "japan",
+      "estonia"
+    ],
+    "Sports": [
+      "football",
+      "basketball",
+      "volleyball",
+      "baseball",
+      "chess",
+      "rugby",
+      "swimming",
+      "tennis",
+      "snooker",
+      "darts",
+      "golf"
+    ]
+  }
+}

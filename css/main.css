@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: hsl(208, 90%, 50%);
+  margin-top: 5em;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: clamp(2em, 8vw, 2.5em);
+  color: white;
+}
+
+.domain {
+  color: white;
+  justify-content: center;
+  display: flex;
+  font-size: clamp(1.5em, 8vw, 2em);
+  margin: 1em 0;
+}
+
+.word {
+  height: 5%;
+  width: 100vw;
+  color: white;
+  display: flex;
+  font-size: clamp(2.3em, 8vw, 3.5em);
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.wordDiv {
+  margin: 0 8px;
+  color: white;
+  width: 25px;
+  text-transform: capitalize;
+  font-size: 0.7em;
+}
+
+.wordSpan {
+  background-color: white;
+  margin: 0 8px;
+  width: 25px;
+  height: 5px;
+}
+
+.underline {
+  margin: 0 0 3em 0;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.keyRow {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 90vw;
+  margin: 10px auto;
+  color: white;
+  height: 8vh;
+}
+
+.key {
+  background-color: hsl(208, 90%, 50%);
+  border: 1.5px solid white;
+  cursor: pointer;
+  padding-top: 1.4vh;
+  font-size: 1.1em;
+  flex: 1;
+  height: 7vh;
+  margin: 0 2.5px;
+}
+
+.hoverKey:hover {
+  transform: translateY(3px);
+  background-color: hsl(208, 87%, 57%);
+}
+
+.disabledKey {
+  background-color: hsl(207, 70%, 74%);
+  cursor: initial;
+}
+
+.modal {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalWindow {
+  background-color: hsl(208, 90%, 50%);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid white;
+  width: 80%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalText {
+  margin: 3vh 0 1vh 0;
+  font-size: 2em;
+}
+
+.modalSolution {
+  font-size: 1.1em;
+  margin-bottom: 2vh;
+}
+
+button {
+  color: black;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  font-weight: 600;
+}
